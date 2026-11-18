@@ -4,6 +4,8 @@ Start with the business claim you want to learn to evaluate. The entries disting
 
 The [state-of-the-art review](STATE_OF_THE_ART.md) summarizes recent findings across topics. Ellickson is a reference for causal analytics with text, Fang for business outcomes, and Argo-Bench for workflow evaluation. The [campaign tutorial](../labs/01_campaign_decision.ipynb) turns the three ideas into a single synthetic case.
 
+For a closer look at recent evaluation designs, see [analytics methods and research](ANALYTICS_METHODS.md). Use [applied research by function](BUSINESS_APPLICATIONS.md) to find studies tied to a particular operating decision.
+
 ## Landmark and widely cited articles
 
 These widely discussed papers from 2023 onward give you contrasting ways to evaluate generative AI in professional work. Citation counts below are Scite's citing-publication counts as checked on **November 18, 2026**. They depend on index coverage and publication age. Use the research design and relevance to decide how much weight to give a result. For regularly published work, see the [journal guide](JOURNALS.md).
@@ -20,7 +22,7 @@ These widely discussed papers from 2023 onward give you contrasting ways to eval
 
 | Source | Evidence | How to read it |
 |---|---|---|
-| Ellickson et al. (2026), [Evaluating Novel Unstructured Treatments with Generative AI](https://doi.org/10.1177/00222437261476639), *Journal of Marketing Research* | Observational promotion data, causal estimates relying on identification assumptions, and retrospective validation on held-out creatives | Read the empirical context, then the sections on incumbent–challenger decisions and local support. Follow how the analysis handles 34 subject-line treatments and when it recommends more evidence. The new AI-generated copy was scored using predictions. |
+| Ellickson et al. (2026), [Evaluating Novel Unstructured Treatments with Generative AI](https://doi.org/10.1177/00222437261476639), *Journal of Marketing Research* | Observational promotion data, causal estimates relying on identification assumptions, and retrospective validation on held-out creatives | Read the empirical context, then the sections on incumbent–challenger decisions and local support. Follow how the analysis handles 34 subject-line treatments and when it recommends more evidence. The new AI-generated copy was scored using predictions. · [Author’s preprint link](https://www.guangzeng.net/research) |
 | Fang et al. (2026), [Generative Artificial Intelligence and Sales Productivity](https://doi.org/10.1287/mnsc.2026.00623), *Management Science* | Randomized field experiments on seven workflows at one cross-border retailer | Compare the sales outcome and the comparator for each workflow. Report the range from no detectable lift to 16.3%, the role of conversion, and why these sales results alone cannot establish contribution margin. [Author working paper](https://thearf-org-unified-admin.s3.amazonaws.com/MSI/2026/MSI_Report_26-112.pdf) |
 | Larsen et al. (2024), [Statistical Challenges in Online Controlled Experiments](https://doi.org/10.1080/00031305.2023.2257237), *The American Statistician* | Peer-reviewed review of online A/B testing methods, first published online in October 2023 | Read the sections on long-term effects, sequential testing, and interference. Use them to choose a metric, stopping rule, and randomization unit for an online experiment. |
 

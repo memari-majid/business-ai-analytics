@@ -1,44 +1,32 @@
 # AI in Business Analytics
 
-A field reference for AI scientists and business-school instructors. Find the methods behind business decisions, the evidence on how AI performs in practice, and course materials and labs you can use to explore the field.
+A field reference for AI scientists and business-school instructors. Start with a business decision, then ask what you need to measure, predict, test, optimize, or verify. The reference covers statistical learning, causal methods, optimization, generative AI, and agents in business analytics.
+
+## Browse the reference
+
+| If you want to… | Start here |
+|---|---|
+| Enter the field and understand core business terms | [Scientist’s field primer](learning/FIELD_PRIMER.md) · [Topic index](learning/TOPIC_INDEX.md) · [Glossary](learning/GLOSSARY.md) |
+| Choose an analytics method or evaluate a new model | [Analytics methods and research](resources/ANALYTICS_METHODS.md) · [State of the art](resources/STATE_OF_THE_ART.md) |
+| Find evidence by business function | [Applied research by function](resources/BUSINESS_APPLICATIONS.md) · [Business function map](learning/FIELD_MAP.md) |
+| Find papers, theories, journals, and researchers | [Research guide](resources/RESEARCH.md) · [References](resources/REFERENCES.md) · [Frameworks](resources/FRAMEWORKS.md) · [Journals](resources/JOURNALS.md) · [People](resources/PEOPLE.md) |
+| Find a book, lecture, or current course | [2025–2026 shortlist](resources/RECENT_RESOURCES.md) · [Books](resources/BOOKS.md) · [Courses](resources/COURSES.md) · [Online resources](resources/ONLINE.md) |
+| Try the methods or adapt a case for teaching | [Datasets and benchmarks](resources/DATASETS.md) · [Runnable labs](labs/README.md) · [Studio cases and assessment rubric](learning/ANALYTICS_STUDIO.md) · [Teaching map](learning/TEACHING_MAP.md) |
 
 ## Recent picks
 
 | Start with | Why read it |
 |---|---|
-| Fang et al. · [Generative Artificial Intelligence and Sales Productivity](https://doi.org/10.1287/mnsc.2026.00623) · *Management Science*, November 2026 | Seven randomized online retail experiments show how sales effects vary by workflow. |
-| Hosanagar and Ahn · [Designing Human and Generative AI Collaboration](https://doi.org/10.1093/pnasnexus/pgag353) · *PNAS Nexus*, November 2026 | Compares three ways to divide creative work between a person and a model. |
+| Fang et al. · [Generative Artificial Intelligence and Sales Productivity](https://doi.org/10.1287/mnsc.2026.00623) · *Management Science*, November 2026 | Randomized tests across seven online retail workflows show where sales effects varied. |
+| Ji et al. · [Text-to-SQL Benchmarks Toward Enterprise Realities](https://doi.org/10.18653/2026.findings-emnlp.1971) · *Findings of EMNLP*, October 2026 | Tests SQL assistants on enterprise-sized schemas and scattered documentation. |
+| Qiao et al. · [It’s TIME](https://proceedings.mlr.press/v306/qiao26g.html) · ICML 2026 | Compares zero-shot forecasting models with a benchmark designed to reduce leakage. |
 | Shankar and Husain · [*Evals for AI Engineers*](resources/RECENT_RESOURCES.md#evals-for-ai-engineers) · October 2026 | A practical guide to turning workflow failures into repeatable evaluation cases. |
-| Mollick · [*Co-Existence*](resources/RECENT_RESOURCES.md#co-existence) · October 2026 | A business-facing follow-up to his bestseller *Co-Intelligence*, for discussions about delegation and oversight. |
-
-## Find what you need
-
-| If you want to know… | Open |
-|---|---|
-| How scientific training transfers and what business knowledge to add | [Field primer for scientists](learning/FIELD_PRIMER.md) |
-| What the field covers and where a specific method fits | [Topic index](learning/TOPIC_INDEX.md) |
-| What is established, what is advancing, and where evidence is thin | [State of the art](resources/STATE_OF_THE_ART.md) |
-| Which recent books, courses, and guides cover generative AI and agents | [Resources from 2025 onward](resources/RECENT_RESOURCES.md) |
-| How marketing, finance, operations, and other teams use analytics and AI | [Business function map](learning/FIELD_MAP.md) |
-| Whose work to follow and where to find it | [Authors, researchers, and practitioners](resources/PEOPLE.md) |
-| Which theories and frameworks shape business analytics research | [Theories and frameworks](resources/FRAMEWORKS.md) |
-| Which journals publish work on a given question | [Journal guide](resources/JOURNALS.md) |
-| What a term means or how a business metric is calculated | [Glossary](learning/GLOSSARY.md) |
-
-## Browse by resource
-
-- [Courses](resources/COURSES.md) with syllabi, lectures, assignments, and access details.
-- [Books](resources/BOOKS.md) with relevant chapters and links to free editions or publisher pages.
-- [Online resources](resources/ONLINE.md) with cases, public datasets, tutorials, and research groups.
-- [Landmark articles and current research](resources/RESEARCH.md) with study designs, findings, and limits. See the [research references](resources/REFERENCES.md) for full citations.
-- [Runnable labs](labs/README.md) on campaign lift, inventory decisions, and grounded policy answers.
-- [Teaching in business schools](learning/TEACHING_MAP.md) with links to Eccles and peer curricula and examples of exercises.
 
 <a name="for-a-mentor-reviewing-this-plan"></a>
 
 ## For mentors and reviewers
 
-The [topic index](learning/TOPIC_INDEX.md) shows the coverage. The [state-of-the-art review](resources/STATE_OF_THE_ART.md) shows how the collection weighs new evidence. Which important topics, sources, or people are missing? Which business cases would make the material more useful in a business school?
+Use the [topic index](learning/TOPIC_INDEX.md) to review coverage and the [applications guide](resources/BUSINESS_APPLICATIONS.md) to check how the research maps to real decisions. Suggestions for missing studies, authors, and classroom cases are welcome.
 
 ## Run the labs
 

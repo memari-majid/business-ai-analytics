@@ -1,5 +1,7 @@
 # Business-school teaching map
 
+For adaptable project briefs, evaluation criteria, and a shared grading rubric, see the [analytics studio cases](ANALYTICS_STUDIO.md).
+
 This is a self-study crosswalk based on publicly described curricula. The last column contains proposed activities for a future course or guest session.
 
 | Program or course | What the public material shows | Proposed comparable exercise |

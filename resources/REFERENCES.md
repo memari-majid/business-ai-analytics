@@ -2,6 +2,12 @@
 
 Sources cited in the [research guide](RESEARCH.md), [state-of-the-art review](STATE_OF_THE_ART.md), and [frameworks guide](FRAMEWORKS.md), focused on publications from 2023 onward. For books, courses, and other practical material, see the [recent resource shortlist](RECENT_RESOURCES.md). Publication details were checked on November 18, 2026. Scite supplied and verified bibliographic records where indexed. The NBER record for Barwick et al. was checked directly at NBER.
 
+Further citations accompany the [methods guide](ANALYTICS_METHODS.md#references), [application studies](BUSINESS_APPLICATIONS.md), and [dataset guide](DATASETS.md#benchmark-and-survey-citations).
+
+## Finding full text
+
+Cite the published version and use a linked author manuscript or public preprint when available. Check the manuscript date if you need results that changed during review. If the full text requires a subscription, try your institution’s journal finder or interlibrary loan. [University of Utah Marriott Library document delivery](https://www.lib.utah.edu/services/interlibrary-loan-faq.php)
+
 ## Recent research
 
 ### Peer-reviewed articles

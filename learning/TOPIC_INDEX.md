@@ -5,13 +5,13 @@ Browse by the question, method, or business decision you are working on. The [bu
 | Browse by topic | Browse by resource |
 |---|---|
 | [Business fundamentals](#business-fundamentals) · [Data and BI](#data-measurement-and-bi) · [Predictive analytics](#predictive-analytics) | [Courses](../resources/COURSES.md) · [Books](../resources/BOOKS.md) |
-| [Forecasting and optimization](#forecasting-optimization-and-operations) · [Experimentation and causality](#experimentation-and-causal-inference) | [Online resources and datasets](../resources/ONLINE.md) · [Research](../resources/RESEARCH.md) |
-| [Text and generative AI](#text-intelligence-and-generative-ai) · [Agents and evaluation](#agents-and-evaluation) · [Strategy and governance](#strategy-adoption-and-governance) | [Runnable labs](../labs/README.md) · [Business-school teaching examples](TEACHING_MAP.md) |
+| [Forecasting and optimization](#forecasting-optimization-and-operations) · [Experimentation and causality](#experimentation-and-causal-inference) | [Datasets and benchmarks](../resources/DATASETS.md) · [Research](../resources/RESEARCH.md) |
+| [Text and generative AI](#text-intelligence-and-generative-ai) · [Agents and evaluation](#agents-and-evaluation) · [Strategy and governance](#strategy-adoption-and-governance) | [Runnable labs](../labs/README.md) · [Analytics studio cases](ANALYTICS_STUDIO.md) |
 
 ## Find and evaluate evidence
 
 - **Frame the question.** Write down the population and unit of analysis. For prediction, specify the horizon and validation split. For a causal claim, specify the intervention, comparator, estimand, and identification assumptions. For a decision, specify the objective, constraints, and cost of errors.
-- **Match the source to the claim.** Use textbooks for methods, cases for operating context, and papers for empirical evidence. Read the design and setting before transferring an effect estimate. For agent benchmarks, inspect the task set, scoring rules, and failure modes.
+- **Match the source to the claim.** Use textbooks for methods, cases for operating context, and papers for empirical evidence. Browse [methods research](../resources/ANALYTICS_METHODS.md) for comparisons and [applied studies](../resources/BUSINESS_APPLICATIONS.md) for evidence about specific decisions. Read the design and setting before transferring an effect estimate. For agent benchmarks, inspect the task set, scoring rules, and failure modes.
 - **Search the literature.** Combine a method with a use case, such as `"heterogeneous treatment effects" AND marketing` or `"forecasting" AND "inventory policy"`. Pair `"agent evaluation"` with a workflow or decision, then follow citations to compare related results. [Research worksheet](../resources/RESEARCH.md#a-reusable-reading-worksheet) · [Research trackers](../resources/ONLINE.md#follow-new-research)
 - **Explore the field.** The [state-of-the-art guide](../resources/STATE_OF_THE_ART.md) surveys active research areas, and the [2025–2026 shortlist](../resources/RECENT_RESOURCES.md) highlights recent books and course materials. The [people directory](../resources/PEOPLE.md) helps you identify authors and prior work. The [journal guide](../resources/JOURNALS.md) maps where studies are published, and the [theories and frameworks guide](../resources/FRAMEWORKS.md) pairs core ideas with recent readings.
 

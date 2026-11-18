@@ -2,6 +2,8 @@
 
 Find examples by business function or use the question map to choose an analytical approach.
 
+For research evidence behind each use case, see [applied research by function](../resources/BUSINESS_APPLICATIONS.md). For practice with public data, see [datasets and benchmarks](../resources/DATASETS.md).
+
 ## Where the methods show up
 
 | Business function | Decisions and measures | Common pitfall | Cases, data, and practice |
