@@ -2,7 +2,7 @@
 
 Selected for applied work, quality of public materials, and fit with a learner who already knows machine learning and causal inference. Access and published prices were checked on November 18, 2026. **Open materials** means the linked notes, syllabi, or assignments are public. **Free course**, **free audit**, and **free preview** reflect the different access terms published by each provider.
 
-## Start here
+## Quick picks by topic
 
 - **Marketing analytics and text intelligence.** Use Eccles MKTG 4640 as a classroom model. Complete its review-analysis project with a simple baseline and a modern model from the Hugging Face course. Compare errors before recommending a service or marketing change.
 - **AI workflows and evaluation.** Read BYU Marriott's “Models in Your Product,” then work through Stanford CS329Z's November 4 and 11 evaluation lectures. Build a small test set with correct, ambiguous, and unsupported business requests.

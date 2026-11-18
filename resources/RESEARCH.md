@@ -2,7 +2,23 @@
 
 Start with the business claim you want to learn to evaluate. The entries distinguish experiments in operating firms, observational analyses, and benchmarks. Citation counts and model benchmark scores answer different questions from a controlled comparison against the current business process.
 
-**Recommended first three.** Read Ellickson for text and causal analytics, Fang for business outcomes, and Argo-Bench for workflow evaluation. The [campaign tutorial](../labs/01_campaign_decision.ipynb) turns the three ideas into a single synthetic case.
+The [state-of-the-art review](STATE_OF_THE_ART.md) summarizes recent findings across topics. Ellickson is a reference for causal analytics with text, Fang for business outcomes, and Argo-Bench for workflow evaluation. The [campaign tutorial](../labs/01_campaign_decision.ipynb) turns the three ideas into a single synthetic case.
+
+## Landmark and widely cited articles
+
+The selection spans statistical modeling, experiments, causal ML, optimization, and workplace AI. Citation counts below are Scite's citing-publication counts as checked on **November 18, 2026**. They depend on index coverage and publication age. Use the research design and relevance to decide how much weight to give a result. For regularly published work, see the [journal guide](JOURNALS.md).
+
+| Article | Why researchers read it | Scite citing publications |
+|---|---|---:|
+| Breiman (2001), [Statistical Modeling: The Two Cultures](https://doi.org/10.1214/ss/1009213726), *Statistical Science* | A classic debate about stochastic data models and algorithmic prediction. | 4,898 |
+| Shmueli (2010), [To Explain or to Predict?](https://doi.org/10.1214/10-STS330), *Statistical Science* | Explains how the purpose of a model affects design, fitting, and validation. This is especially useful when people conflate prediction and causal explanation. | 3,349 |
+| Kohavi et al. (2009), [Controlled Experiments on the Web](https://doi.org/10.1007/s10618-008-0114-1), *Data Mining and Knowledge Discovery* | A practical research article on running trustworthy online experiments, including randomization and measurement. | 737 |
+| Wager and Athey (2018), [Estimation and Inference of Heterogeneous Treatment Effects Using Random Forests](https://doi.org/10.1080/01621459.2017.1319839), *Journal of the American Statistical Association* | A foundation for using forest methods to estimate heterogeneous treatment effects under identification and regularity assumptions. | 3,701 |
+| Bertsimas and Kallus (2020), [From Predictive to Prescriptive Analytics](https://doi.org/10.1287/mnsc.2018.3253), *Management Science* | Shows how predictive information about demand can inform a constrained decision, evaluated by the quality of that decision. | 969 |
+| Noy and Zhang (2023), [Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence](https://doi.org/10.1126/science.adh2586), *Science* | A preregistered online experiment on selected professional writing tasks that measures time and quality. | 2,547 |
+| Brynjolfsson, Li, and Raymond (2025), [Generative AI at Work](https://doi.org/10.1093/qje/qjae044), *The Quarterly Journal of Economics* | Evidence from a staggered deployment of AI support in an operating firm, with effects varying across workers. | 1,341 |
+
+**Management perspective.** Davenport's [Competing on Analytics](https://hbr.org/2006/01/competing-on-analytics) is a classic *Harvard Business Review* article on organizational capabilities. It gives a strategic lens for reading the research above.
 
 ## Marketing and experimentation
 
@@ -11,7 +27,14 @@ Start with the business claim you want to learn to evaluate. The entries disting
 | Ellickson et al. (2026), [Evaluating Novel Unstructured Treatments with Generative AI](https://doi.org/10.1177/00222437261476639), *Journal of Marketing Research* | Observational promotion data, causal estimates relying on identification assumptions, and retrospective validation on held-out creatives | Read the empirical context, then the sections on incumbent–challenger decisions and local support. Follow how the analysis handles 34 subject-line treatments and when it recommends more evidence. The new AI-generated copy was scored using predictions. |
 | Fang et al. (2026), [Generative Artificial Intelligence and Sales Productivity](https://doi.org/10.1287/mnsc.2026.00623), *Management Science* | Randomized field experiments on seven workflows at one cross-border retailer | Compare the sales outcome and the comparator for each workflow. Report the range from no detectable lift to 16.3%, the role of conversion, and why these sales results alone cannot establish contribution margin. [Author working paper](https://thearf-org-unified-admin.s3.amazonaws.com/MSI/2026/MSI_Report_26-112.pdf) |
 | Chernozhukov et al. (2018), [Double/debiased machine learning for treatment and structural parameters](https://doi.org/10.1111/ectj.12097), *The Econometrics Journal* | Theory and applications for estimation with flexible nuisance models | Read the introduction and the treatment-effect application. Explain which assumptions identify the effect and how orthogonal scores and cross-fitting help estimate it. |
+
+## Forecasting and operational decisions
+
+| Source | Evidence | How to read it |
+|---|---|---|
 | Makridakis et al. (2022), [M5 accuracy competition](https://doi.org/10.1016/j.ijforecast.2021.11.013), *International Journal of Forecasting* | A retail forecasting competition with hierarchical series and a held-out future period | Compare methods against baselines, identify the evaluation horizon and weighting, then read the [companion uncertainty competition](https://doi.org/10.1016/j.ijforecast.2021.10.009) to see why a distribution can support a different decision from a point estimate. |
+| Bertsimas and Kallus (2020), [From Predictive to Prescriptive Analytics](https://doi.org/10.1287/mnsc.2018.3253), *Management Science* | Methods for conditional stochastic optimization with an inventory application | Compare the objective used to score an operational decision with the error metric used to score a forecast. |
+| Liu et al. (2026), [GIFT-Eval-CTX](https://arxiv.org/abs/2610.17794) | October 2026 preprint benchmark for contextual forecasting | Check which upcoming events and other context would be available at the time of the forecast. Compare every candidate with a baseline using the same information. |
 
 ## Organizations and real work
 

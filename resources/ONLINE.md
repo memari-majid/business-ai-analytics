@@ -1,6 +1,6 @@
 # Online resources for AI in business analytics
 
-Reviewed November 18, 2026. The fastest route from the email campaign tutorial to business-school practice is to read the Wharton–Petco case, estimate campaign lift on the Hillstrom dataset, and use Anthropic's evaluation guide to test an AI analyst on the resulting decision. Browse the remaining resources by the question you want to answer.
+Reviewed November 18, 2026. Browse public business-school cases, datasets, practical guidance, and research feeds. The Wharton–Petco case and Hillstrom dataset complement the [campaign tutorial](../labs/01_campaign_decision.ipynb).
 
 ## How businesses and business schools use AI
 

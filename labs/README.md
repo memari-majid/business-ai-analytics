@@ -14,4 +14,4 @@ All three labs use fictional data. Each ends with a business recommendation you 
 2. **Inventory.** Run `python3 labs/02_inventory_decision.py --underage-cost 18` to double the cost of unmet demand. How does the order quantity change? Keep model selection and cost tuning out of the final evaluation period. Write down which operational assumption would make the exercise's independent weekly decisions unrealistic.
 3. **Policy.** Add an expired policy whose wording exactly matches the question, then add a case with an unspecified sales channel. Score evidence applicability and abstention separately. A language model is an optional extension. Keep deterministic tests for scope and effective dates.
 
-For each lab, summarize the **incumbent**, **metric**, **result**, **limitation**, and **next action** in five sentences. The [roadmap](../learning/ROADMAP.md) gives project and capstone extensions.
+For each lab, summarize the **incumbent**, **metric**, **result**, **limitation**, and **next action** in five sentences. The [topic index](../learning/TOPIC_INDEX.md) points to more examples and data.

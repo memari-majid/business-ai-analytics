@@ -1,6 +1,6 @@
 # Working glossary
 
-Use this page while working through the [roadmap](ROADMAP.md). Each definition anchors a decision or a calculation.
+Use these definitions to read business cases, interpret results, and find related methods in the [topic index](TOPIC_INDEX.md).
 
 | Term | Working meaning |
 |---|---|
