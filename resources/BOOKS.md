@@ -1,0 +1,50 @@
+# Books for learning and teaching AI in business analytics
+
+Verified November 18, 2026. **Free** means the linked site offers the full text. **Commercial** means the publisher offers a purchase, subscription, or institutional access. Preview links are identified separately. Dates refer to the editions or drafts linked below.
+
+## Start here
+
+1. **Frame the decision.** Read chapters 7 and 8 of *Data Science for Business*, then use them to translate the campaign tutorial's lift into expected profit.
+2. **Measure the effect.** Read chapters 2, 7, and 21 of *Trustworthy Online Controlled Experiments*. For an advanced causal extension, use the BERT and double machine learning notebook from *Applied Causal Inference Powered by ML and AI*.
+3. **Build and test the AI workflow.** Read chapters 3 and 6 of *AI Engineering* and chapters 3, 5, and 8 of *Evals for AI Engineers*. Use the latter to add a failure taxonomy and regression tests to the AI analyst exercise.
+4. **Design a full graduate course.** Use Sharda, Delen, and Turban's sixth edition for breadth. Choose an applied case from Huntsinger and assign a specialist chapter from the relevant section below.
+
+## Business decisions and graduate analytics
+
+| Book | What to read and use | Edition and access |
+|---|---|---|
+| **Foster Provost and Tom Fawcett, *Data Science for Business*** | Chapters 7–8 on expected value, unequal error costs, and profit and lift curves. Chapter 11 extends the churn example to the value of an incentive. This is the best starting point for turning a prediction into a business decision. | 2013. Commercial, with free chapter previews. [O’Reilly](https://www.oreilly.com/library/view/data-science-for/9781449374273/) |
+| **Ramesh Sharda, Dursun Delen, and Efraim Turban, *Business Analytics, Data Science, and AI: A Managerial Approach*** | Chapter 6 for text, web, and social media analytics, chapter 8 for optimization and simulation, and chapters 10–11 for AI trends and managerial issues. A broad MSBA syllabus reference that connects descriptive, predictive, and prescriptive work. | Sixth edition, published 2026, copyright 2027. Commercial. [Pearson](https://www.pearson.com/en-us/subject-catalog/p/business-analytics-data-science-and-ai-a-managerial-approach/P200000013730/9780135437698) |
+| **Richard Huntsinger, *Business Analytics: Methods and Cases for Data-Driven Decisions*** | Use the telecom churn case in §6.4 to discuss retention and sensitivity analysis, then the call center scheduling case in §8.5 to connect predictions to resource decisions. The cases provide a model for teaching analytic methods through actual business decisions. | 2025. Commercial, with a free excerpt and detailed contents. [Cambridge](https://www.cambridge.org/highereducation/books/business-analytics/49F97FC7360294F70056ADDC895C61AE) · [Excerpt](https://assets.cambridge.org/97813165/12159/excerpt/9781316512159_excerpt.pdf) · [Contents](https://assets.cambridge.org/97813165/12159/frontmatter/9781316512159_frontmatter.pdf) |
+
+## Experiments and causal machine learning
+
+| Book | What to read and use | Edition and access |
+|---|---|---|
+| **Ron Kohavi, Diane Tang, and Ya Xu, *Trustworthy Online Controlled Experiments*** | Chapter 2 walks through an experiment. Chapter 7 defines decision metrics, and chapter 21 covers sample ratio mismatch and trust-related guardrails. Apply all three to an A/B test of a new AI-assisted process. | 2020. Commercial with a free first chapter. [Cambridge](https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59) · [Free excerpt](https://assets.cambridge.org/97811087/24265/excerpt/9781108724265_excerpt.pdf) |
+| **Victor Chernozhukov, Christian Hansen, Nathan Kallus, Martin Spindler, and Vasilis Syrgkanis, *Applied Causal Inference Powered by ML and AI*** | Chapter 5 for identification with observed controls, the chapter 9 notebook on DoubleML and BERT features, and chapters 14–15 on heterogeneous effects and validation. Work through the notebooks before adapting the methods to customer or campaign data. | Living author manuscript dated 2024 onward. Site updated September 25, 2026. Free text and Python/R notebooks. [Author site](https://causalml-book.org/) |
+| **Matheus Facure Alves, *Causal Inference for the Brave and True*** | Use chapter 19 on evaluating causal models for a Python lab on ranking who benefits from an intervention. Have students compare targeting by predicted response and by estimated incremental effect. The author's advanced section is a work in progress. | Open online book. Free. [Author site](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) · [Chapter 19](https://matheusfacure.github.io/python-causality-handbook/19-Evaluating-Causal-Models.html) |
+
+## Forecasting and operational decisions
+
+| Book | What to read and use | Edition and access |
+|---|---|---|
+| **Rob J. Hyndman and George Athanasopoulos, *Forecasting: Principles and Practice*** | Chapter 5 for baselines, forecast intervals, and time-series cross-validation. Chapter 10 introduces dynamic regression, and chapter 11 handles related forecasts across products or regions. Use these methods when comparing modern models against familiar demand baselines. Examples use R. | Third edition, 2021 print edition. Free online edition updated November 14, 2026. [OTexts](https://otexts.com/fpp3/) |
+| **Warren B. Powell, *Sequential Decision Analytics and Modeling: Modeling with Python*** | §§1.5 and 1.8 use inventory decisions to introduce uncertainty and policy evaluation. Chapter 3 applies the framework to adaptive market planning. Useful for teaching how repeated decisions should respond to new demand information. | Second edition, February 2026. Free author PDF, with Python materials. [Author site](https://warrenpowell.org/sdamodeling/) · [Book PDF](https://warrenpowell.org/assets/papers/sdam-2nd-edition.pdf) |
+
+## Text intelligence and LLM development
+
+| Book | What to read and use | Edition and access |
+|---|---|---|
+| **Daniel Jurafsky and James H. Martin, *Speech and Language Processing*** | Chapters 4–5 for classification baselines and embeddings. Chapter 7 for transformers and chapter 11 for information retrieval and retrieval-augmented generation (RAG). Eccles lists the draft in its Spring 2026 Marketing Text Analytics syllabus. | Third-edition author draft, August 19, 2026. Free. [Stanford book site](https://web.stanford.edu/~jurafsky/slp3/) · [Eccles syllabus](https://class-tools.app.utah.edu/syllabus/1264/12473/MKTG%2B4640%2BSyllabus.pdf) |
+| **Emil Hvitfeldt and Julia Silge, *Supervised Machine Learning for Text Analysis in R*** | Chapters 2–5 for text representations and chapter 7 for classification. Build a repeatable baseline for coding customer reviews, then compare a language model's errors on the same holdout set. Eccles lists this text on its public syllabus as well. | 2022 online edition. Free. [Author site](https://smltar.com/) · [Eccles syllabus](https://class-tools.app.utah.edu/syllabus/1264/12473/MKTG%2B4640%2BSyllabus.pdf) |
+| **Chip Huyen, *AI Engineering*** | Chapters 3–4 cover evaluation methods and system design criteria, including correctness, cost, and latency. Chapter 6 covers retrieval, tool use, and agent failure modes. Use it as a design reference for an evidence-grounded analyst. | O’Reilly English edition, December 2024. Commercial. [O’Reilly](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) |
+| **Shreya Shankar and Hamel Husain, *Evals for AI Engineers*** | Start with chapter 3 on analyzing failed traces, then chapter 5 on automated evaluators and chapter 8 on evaluating tool calls and multistep agents. A focused reference for turning failures in an analytics workflow into regression cases. | October 2026. Commercial, with a free companion FAQ. [O’Reilly](https://www.oreilly.com/library/view/evals-for-ai/9798341660717/) · [Authors’ FAQ](https://hamel.dev/blog/posts/evals-faq/evals-faq.pdf) |
+
+## Strategy, adoption, and governance
+
+| Book | What to read and use | Edition and access |
+|---|---|---|
+| **Ajay Agrawal, Joshua Gans, and Avi Goldfarb, *Power and Prediction*** | Examine how prediction and judgment combine in a decision and how related decisions constrain each other. Use that lens to map who owns an action when a firm adds AI to an existing workflow. | 2022. Commercial. [Harvard Business Review Press](https://store.hbr.org/product/power-and-prediction-the-disruptive-economics-of-artificial-intelligence/10580) |
+| **Marco Iansiti and Karim R. Lakhani, *Competing in the Age of AI*** | Chapters 3–5 on the AI factory, the firm's operating architecture, and organizational change. Useful for MBA discussion of the data, staff, and feedback loops that let a model produce repeatable value. | 2020. Commercial. [Harvard Business Review Press](https://store.hbr.org/product/competing-in-the-age-of-ai-strategy-and-leadership-when-algorithms-and-networks-run-the-world/10272) |
+| **Babak Hodjat and Antoine Blondeau, *The Agentic Enterprise*** | Chapter 4 for cost of ownership and ROI, chapter 6 for system design, and chapter 7 for responsibility and controls. Use the practitioner vignettes to compare rollout choices and to identify which claims would require measurement in your organization. | July 2026. Commercial. [O’Reilly](https://www.oreilly.com/library/view/the-agentic-enterprise/0642572274566/) |
