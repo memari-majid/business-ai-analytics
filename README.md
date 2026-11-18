@@ -1,6 +1,6 @@
 # AI in Business Analytics
 
-A reference for scientists entering AI in business analytics and for anyone researching or teaching the field. It covers business fundamentals, data and measurement, prediction, causal inference, optimization, and how organizations evaluate and deploy AI.
+A field reference for scientists and business-school instructors. Find the methods behind business decisions, the evidence on how AI performs in practice, and course materials and labs you can use to explore the field.
 
 ## Find what you need
 
@@ -24,6 +24,12 @@ A reference for scientists entering AI in business analytics and for anyone rese
 - [Runnable labs](labs/README.md) on campaign lift, inventory decisions, and grounded policy answers.
 - [Teaching in business schools](learning/TEACHING_MAP.md) with links to Eccles and peer curricula and examples of exercises.
 
+<a name="for-a-mentor-reviewing-this-plan"></a>
+
+## For mentors and reviewers
+
+The [topic index](learning/TOPIC_INDEX.md) shows the coverage. The [state-of-the-art review](resources/STATE_OF_THE_ART.md) shows how the collection weighs new evidence. Which important topics, sources, or people are missing? Which business cases would make the material more useful in a business school?
+
 ## Run the labs
 
 The Python scripts use the standard library. The campaign notebook uses Jupyter, scikit-learn, and Matplotlib. Run these commands from the repository root using Python 3.10 or newer.
@@ -39,11 +45,5 @@ jupyter lab labs/01_campaign_decision.ipynb
 ```
 
 The labs use fictional data and run offline after installation. The campaign notebook includes executed outputs and an optional exercise for testing a model you already use. The original campaign tutorial was developed in Majid Memari's course workspace.
-
-<a name="for-a-mentor-reviewing-this-plan"></a>
-
-## For mentors and reviewers
-
-The [topic index](learning/TOPIC_INDEX.md) shows the coverage. The [state-of-the-art review](resources/STATE_OF_THE_ART.md) shows how the collection weighs new evidence. Which important topics, sources, or people are missing? Which business cases would make the material more useful in a business school?
 
 Links and publication details were reviewed in **November 2026**. Course enrollment and commercial access can change. Third-party resources are linked to their publishers, who set the access terms.
